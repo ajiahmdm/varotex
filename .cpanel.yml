@@ -3,7 +3,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/u1569388/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp error.html $DEPLOYPATH
     - /bin/cp comingsoon.html $DEPLOYPATH
